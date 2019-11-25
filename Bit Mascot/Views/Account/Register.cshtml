@@ -63,7 +63,7 @@
         
         <div class="form-group mr-6">
             @Html.LabelFor(m => m.Password, new { @class = "col-sm-2 col-form-label" })
-            @Html.TextBoxFor(m => m.Password, new { @class = "col-4 form-control-sm" })
+            @Html.PasswordFor(m => m.Password, new { @class = "col-4 form-control-sm" })
         </div>
         @Html.ValidationMessageFor(m => m.Password, "", new { @id = "EmailValidation", @class = "text-danger" })
         <span id="validateEmail"></span>
@@ -122,8 +122,48 @@
                 $("#validateEmail").text("");
             }
             //console.log(sizeEmail);
-        });
+     });
+     function setError(id, message) {
+         var span = $("span[data-valmsg-for=\"" + id + "\"]");
+         if (span && span.length > 0) {
+             $(span).html(message);
+             if (message && message != "") {
+                 $(span).removeClass("field-validation-valid");
+                 $(span).addClass("field-validation-no-valid");
+             } else {
+                 $(span).removeClass("field-validation-no-valid");
+                 $(span).addClass("field-validation-valid");
+             }
+         }
+     }
 
+     $("#submit").click(function () {
+         setError("Phone", "");
+         var phone = $("#Phone").val();
+         var checkNumber = 0;
+
+         for (var i = 0; i < phone.length; i++)
+         {
+             if (phone[i] >= '0' && phone[i] <= '9')
+             {
+
+             }
+             else
+             {
+                 checkNumber = 1;
+                 break;
+             }
+         }
+         console.log(checkNumber);
+         if (checkNumber==0)
+             $("#submit").submit();
+         else
+         {
+             event.preventDefault();
+             setError("Phone", "Digits Should be 0-9");
+         }
+             
+     });
 
         $("#cancel").click(function () {
             event.preventDefault();
