@@ -1,0 +1,150 @@
+﻿@{
+    Layout = "~/Views/Shared/MemberLayout.cshtml";
+}
+<script src="~/Scripts/jquery-3.0.0.min.js"></script>
+<script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/MemberList.css" rel="stylesheet" />
+<div class="row">
+    <div class="col-lg-10" id="userli">
+        <h1>USER LIST</h1>
+    </div>
+
+    <div class="float-right" id="seachbttn">
+        <input class="form-control" type="text" id="SearchName" placeholder="Search" aria-label="Search"/>
+    </div>
+
+</div>
+
+<table class="table" id="StoreList">
+    <thead>
+        <tr>
+
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>       
+
+
+<script>
+
+    alert("Hello World");
+    $(document).ready(function () {
+        $("#StoreList tbody tr").remove();
+        $.ajax({
+            url: '@Url.Action("Members", "Admin")',
+            contentType: "application/json;charset=utf-8",
+            data: { text: "" },
+            type: 'GET',
+            dataType: 'json',
+            success: function (datas) {
+                var today = new Date();
+
+                var todayDate = today.getDate();
+                var todayMonth = today.getMonth() + 1;
+                var todayYear = today.getFullYear();
+                console.log("Date: " + todayDate + " Month: " + todayMonth + " Year: " + todayYear);
+                $.each(datas, function (index, value) {
+                    value.forEach(function (entry) {
+                        var Birthday = (entry.Birthdate).substr(3, 2);
+                        var BirthMonth = (entry.Birthdate).substr(0, 2);
+                        var BirthYear = (entry.Birthdate).substr(6, 4);
+                        console.log(Birthday + " " + BirthMonth + " " + BirthYear);
+                        var OriginalYear = todayYear - BirthYear;
+                        if (BirthMonth > todayMonth)
+                        {
+                            OriginalYear--;
+                        }
+                        else if (BirthMonth == todayMonth)
+                        {
+                            if (Birthday > todayDate)
+                            {
+                                OriginalYear--;
+                            }
+                        }
+
+                        if (OriginalYear < 0)
+                        {
+                            OriginalYear = 0;
+                        }
+                        $("#StoreList tbody").append(
+                            "<tr>"
+                            + "<td>" + entry.FirstName + "</td>"
+                            + "<td>" + OriginalYear + "</td>"
+                            + "<td>" + entry.Email + "</td>"
+                            + "<td>" + entry.Phone + "</td>"
+                            + "</tr>"
+                        );
+                    });
+
+                });
+
+
+
+            }
+        });
+        $("input").keyup(function () {
+            var inputvalue = ($("#SearchName").val()).trim();
+            console.log(inputvalue);
+            $("#StoreList tbody tr").remove();
+            $.ajax({
+            url: '@Url.Action("Members", "Admin")',
+            contentType: "application/json;charset=utf-8",
+            data: { text: inputvalue },
+            type: 'GET',
+            dataType: 'json',
+            success: function (datas) {
+                var today = new Date();
+
+                var todayDate = today.getDate();
+                var todayMonth = today.getMonth() + 1;
+                var todayYear = today.getFullYear();
+                $.each(datas, function (index, value) {
+                    value.forEach(function (entry) {
+                        var Birthday = (entry.Birthdate).substr(3, 2);
+                        var BirthMonth = (entry.Birthdate).substr(0, 2);
+                        var BirthYear = (entry.Birthdate).substr(6, 4);
+                        console.log(Birthday + " " + BirthMonth + " " + BirthYear);
+                        var OriginalYear = todayYear - BirthYear;
+                        if (BirthMonth > todayMonth)
+                        {
+                            OriginalYear--;
+                        }
+                        else if (BirthMonth == todayMonth)
+                        {
+                            if (Birthday > todayDate)
+                            {
+                                OriginalYear--;
+                            }
+                        }
+
+                        if (OriginalYear < 0)
+                        {
+                            OriginalYear = 0;
+                        }
+                        $("#StoreList tbody").append(
+                            "<tr>"
+                            + "<td>" + entry.FirstName + "</td>"
+                            + "<td>" + OriginalYear + "</td>"
+                            + "<td>" + entry.Email + "</td>"
+                            + "<td>" + entry.Phone + "</td>"
+                            + "</tr>"
+                        );
+                    });
+
+                });
+
+
+
+            }
+        });
+        });
+    });
+
+
+</script>
+

@@ -1,0 +1,65 @@
+﻿@using Bit_Mascot.Models
+@model LoginViewModel
+@{
+    Layout = null;
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Login.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-3.0.0.min.js"></script>
+
+@using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="imgcontainer">
+        <img src="~/Content/Login.PNG" />
+    </div>
+
+
+    <div class="container">
+        <div class="form-group">
+            <label id="field">Email Address</label>
+            <div class="col-md-4">
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+            </div>
+        </div>
+        @Html.ValidationMessageFor(m => m.Email, "", new { @id = "EmailValidation" , @class = "text-danger" })
+        <div class="form-group">
+            <label id="field">Password</label>
+            <div class="col-md-4">
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+            </div>
+        </div>
+        @Html.ValidationMessageFor(m => m.Password, "", new { @id = "EmailValidation", @class = "text-danger" })
+
+        @Html.ValidationSummary(true, "", new { @id = "EmailValidation", @class = "text-danger" })
+        
+        <div class="row" id="submitButton">
+                <div class="col-md-2">
+                    <input type="submit" id="submit" value="Log in" class="btn btn-default" />
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-default" id="clear">Clear</button>
+                </div>
+        </div>
+
+
+    </div>
+
+}
+
+<div id="submitRegister">
+    Are You New Here? <u>@Html.ActionLink("Register Now", "Register")</u>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+<script>
+    $(document).ready(function () {
+        $("#clear").click(function () {
+            event.preventDefault();
+            window.location.href = "../Account/Login";
+        });
+    });
+
+</script>

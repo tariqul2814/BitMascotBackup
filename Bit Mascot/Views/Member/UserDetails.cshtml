@@ -1,0 +1,51 @@
+﻿@model Bit_Mascot.Models.Registration
+    @{
+        Layout = "~/Views/Shared/MemberLayout.cshtml";
+    }
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Registration.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.0.0.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+
+
+    <h1 class="row justify-content-center">USER PROFILE</h1>
+    <hr />
+
+    <div class="container">
+        <div class="form-group mr-6">
+            @Html.LabelFor(m => m.FirstName, new { @class = "col-sm-2 col-form-label" })
+            @Html.DisplayFor(m => m.FirstName, new { @class = "col-4 form-control-sm" })
+        </div>
+
+        <div class="form-group mr-6">
+            @Html.LabelFor(m => m.LastName, new { @class = "col-sm-2 col-form-label" })
+            @Html.DisplayFor(m => m.LastName, new { @class = "col-4 form-control-sm" })
+        </div>
+
+        <div class="form-group mr-6">
+            @Html.LabelFor(m => m.Address, new { @class = "col-sm-2 col-form-label" })
+            @Html.DisplayFor(m => m.Address, new { @class = "col-4 form-control-sm" })
+        </div>
+
+        <div class="form-group mr-6">
+            @Html.LabelFor(m => m.Phone, new { @class = "col-sm-2 col-form-label" })
+            @Html.DisplayFor(m => m.Phone, new { @class = "col-4 form-control-sm" })
+        </div>
+
+        <div class="form-group mr-6">
+            @Html.LabelFor(m => m.Email, new { @class = "col-sm-2 col-form-label" })
+            @Html.DisplayFor(m => m.Email, new { @class = "col-4 form-control-sm" })
+        </div>
+
+        <div class="form-group mr-6">
+            @Html.LabelFor(m => m.Birthdate, new { @class = "col-sm-2 col-form-label" })
+            @Html.DisplayFor(m => m.Birthdate, new { @class = "col-4 form-control-sm" })
+        </div>
+    </div>
+
+@section Scripts {
+    
+}
+
+
+
