@@ -297,3 +297,101 @@ E:\BitMascot\Bit-Mascot\Bit Mascot\Bit Mascot\obj\Debug\Bit Mascot.pdb
 E:\BitMascot\Bit-Mascot\Bit Mascot\Bit Mascot\obj\Debug\Bit Mascot.csprojAssemblyReference.cache
 E:\BitMascot\Bit-Mascot\Bit Mascot\Bit Mascot\obj\Debug\Bit_Mascot.Migrations.a.resources
 E:\BitMascot\Bit-Mascot\Bit Mascot\Bit Mascot\obj\Debug\Bit Mascot.csproj.GenerateResource.cache
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\ApplicationInsights.config
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\csc.exe
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\csc.exe.config
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\csc.rsp
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\csi.exe
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\csi.rsp
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\System.AppContext.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\vbc.exe
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\vbc.exe.config
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\vbc.rsp
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Bit Mascot.dll.config
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Bit Mascot.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Bit Mascot.pdb
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Antlr3.Runtime.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\EntityFramework.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\EntityFramework.SqlServer.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.AI.Web.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Owin.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Owin.Security.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Newtonsoft.Json.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Owin.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\System.Web.Helpers.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\System.Web.Mvc.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\System.Web.Optimization.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\System.Web.Razor.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\System.Web.WebPages.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\System.Web.WebPages.Razor.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\WebGrease.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\System.Web.Helpers.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\System.Web.Mvc.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\System.Web.Optimization.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\System.Web.Razor.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\System.Web.WebPages.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\System.Web.WebPages.Razor.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Antlr3.Runtime.pdb
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Newtonsoft.Json.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\EntityFramework.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\EntityFramework.SqlServer.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Owin.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Owin.Security.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\bin\Microsoft.AI.Web.xml
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\obj\Debug\Bit Mascot.csprojResolveAssemblyReference.cache
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\obj\Debug\Bit_Mascot.Migrations.a.resources
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\obj\Debug\Bit Mascot.csproj.GenerateResource.Cache
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\obj\Debug\Bit Mascot.dll
+C:\Users\Tariqul\Desktop\Bit Mascot BackUp Office\BitMascotBackup\Bit Mascot\obj\Debug\Bit Mascot.pdb

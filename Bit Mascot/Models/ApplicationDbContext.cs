@@ -11,7 +11,7 @@ namespace Bit_Mascot.Models
     {
         public DbSet<Registration> Registrations { get; set; }
         public ApplicationDbContext()
-            : base("BitMascot", throwIfV1Schema: false)
+            : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
 

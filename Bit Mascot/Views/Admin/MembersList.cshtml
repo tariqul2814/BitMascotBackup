@@ -6,7 +6,7 @@
 <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
 <link href="~/Content/MemberList.css" rel="stylesheet" />
 <div class="row">
-    <div class="col-lg-10" id="userli">
+    <div class="col-lg-9" id="userli">
         <h1>USER LIST</h1>
     </div>
 
@@ -31,8 +31,7 @@
 
 
 <script>
-
-    alert("Hello World");
+    
     $(document).ready(function () {
         $("#StoreList tbody tr").remove();
         $.ajax({
@@ -103,6 +102,7 @@
                 var todayDate = today.getDate();
                 var todayMonth = today.getMonth() + 1;
                 var todayYear = today.getFullYear();
+                $("#StoreList tbody tr").remove();
                 $.each(datas, function (index, value) {
                     value.forEach(function (entry) {
                         var Birthday = (entry.Birthdate).substr(3, 2);

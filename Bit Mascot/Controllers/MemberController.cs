@@ -1,4 +1,5 @@
 ﻿using Bit_Mascot.Models;
+using Bit_Mascot.Models.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -66,7 +67,19 @@ namespace Bit_Mascot.Controllers
                 ViewBag.UserName = emailAddress;
                 var registration = new Registration();
                 registration = Context.Registrations.FirstOrDefault(x => x.Email == emailAddress);
-                return View(registration);
+
+                //yourDateTime.ToString("MMMM dd, yyyy");
+                var userRegistration = new RegistrationUserDetails
+                {
+                    Email = registration.Email,
+                    FirstName = registration.FirstName,
+                    LastName = registration.LastName,
+                    Address = registration.Address,
+                    Phone = registration.Phone,
+                    Birthdate = (registration.Birthdate).ToString("dd-MM-yyyy")
+                };
+
+                return View(userRegistration);
             }
             else if(Request.Cookies.AllKeys.Contains("ck1") && Decrypt(Request.Cookies["iden"].Value) == "2")
             {
