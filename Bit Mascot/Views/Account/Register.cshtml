@@ -98,7 +98,7 @@
             var EmailAddress = $("#Email").val();
             if (IsEmail(EmailAddress) == true)
             {
-                console.log(EmailAddress);
+                //console.log(EmailAddress);
 
                 $.ajax({
                     url: '@Url.Action("CheckEmail", "Member")',
@@ -154,7 +154,7 @@
                  break;
              }
          }
-         console.log(checkNumber);
+         //console.log(checkNumber);
          if (checkNumber==0)
              $("#submit").submit();
          else

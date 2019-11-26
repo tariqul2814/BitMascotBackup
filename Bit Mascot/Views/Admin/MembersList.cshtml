@@ -31,7 +31,7 @@
 
 
 <script>
-    
+    var RowDetect = 0;
     $(document).ready(function () {
         $("#StoreList tbody tr").remove();
         $.ajax({
@@ -46,13 +46,13 @@
                 var todayDate = today.getDate();
                 var todayMonth = today.getMonth() + 1;
                 var todayYear = today.getFullYear();
-                console.log("Date: " + todayDate + " Month: " + todayMonth + " Year: " + todayYear);
+                //console.log("Date: " + todayDate + " Month: " + todayMonth + " Year: " + todayYear);
                 $.each(datas, function (index, value) {
                     value.forEach(function (entry) {
                         var Birthday = (entry.Birthdate).substr(3, 2);
                         var BirthMonth = (entry.Birthdate).substr(0, 2);
                         var BirthYear = (entry.Birthdate).substr(6, 4);
-                        console.log(Birthday + " " + BirthMonth + " " + BirthYear);
+                        //console.log(Birthday + " " + BirthMonth + " " + BirthYear);
                         var OriginalYear = todayYear - BirthYear;
                         if (BirthMonth > todayMonth)
                         {
@@ -86,9 +86,11 @@
 
             }
         });
+
         $("input").keyup(function () {
             var inputvalue = ($("#SearchName").val()).trim();
-            console.log(inputvalue);
+            //console.log(inputvalue);
+            RowDetect = 0;
             $("#StoreList tbody tr").remove();
             $.ajax({
             url: '@Url.Action("Members", "Admin")',
@@ -105,10 +107,11 @@
                 $("#StoreList tbody tr").remove();
                 $.each(datas, function (index, value) {
                     value.forEach(function (entry) {
+                        RowDetect++;
                         var Birthday = (entry.Birthdate).substr(3, 2);
                         var BirthMonth = (entry.Birthdate).substr(0, 2);
                         var BirthYear = (entry.Birthdate).substr(6, 4);
-                        console.log(Birthday + " " + BirthMonth + " " + BirthYear);
+                        //console.log(Birthday + " " + BirthMonth + " " + BirthYear);
                         var OriginalYear = todayYear - BirthYear;
                         if (BirthMonth > todayMonth)
                         {
@@ -138,7 +141,14 @@
 
                 });
 
-
+                //console.log(RowDetect);
+                if (RowDetect == 0)
+                {
+                    $("#StoreList tbody tr").remove();
+                    $("#StoreList tbody").append(
+                        "<tr><td colspan='4'><center><h1>Not Found</h1></center></td><tr>"
+                    );
+                }
 
             }
         });

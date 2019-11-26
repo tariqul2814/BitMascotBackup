@@ -86,7 +86,7 @@ namespace Bit_Mascot.Models
         public string Address { get; set; }
 
         [Required]
-        [StringLength(11, ErrorMessage = "Phone Number Must be 7 Digits or 11 Digits", MinimumLength = 7)]
+        [StringLength(11, ErrorMessage = "Phone Number Must be 11 Digits", MinimumLength = 11)]
         [Display(Name = "Phone")]
         public string Phone { get; set; }
         
@@ -96,7 +96,7 @@ namespace Bit_Mascot.Models
         public DateTime Birthday { set; get; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "Password atleast 6 digits", MinimumLength = 6)]
+        [StringLength(100, ErrorMessage = "Password atleast 5 digits", MinimumLength = 5)]
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
         public string Password { get; set; }
