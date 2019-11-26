@@ -68,7 +68,10 @@
         @Html.ValidationMessageFor(m => m.Password, "", new { @id = "EmailValidation", @class = "text-danger" })
         <span id="validateEmail"></span>
 
-
+        <div id="submitRegister">
+             @Html.ActionLink("Already Member?", "Login", "Account")
+        </div>
+        <br />
         <div class="row" id="submitButton">
             <div class="col-md-2">
                 <input type="submit" id="submit" value="Register" class="btn btn-default" />
